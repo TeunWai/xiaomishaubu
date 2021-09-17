@@ -317,9 +317,7 @@ def get_access_token():
 
 
 def run(msg):
-    if get_access_token != "NO":
-        return
-    elif position:
+    if position:
         data = {
             "touser": touser,
             "toparty": toparty,
